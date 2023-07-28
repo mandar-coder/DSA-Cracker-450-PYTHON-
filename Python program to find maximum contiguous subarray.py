@@ -2,7 +2,6 @@
 
 from sys import maxint
 
-
 def maxSubArraySum(a, size):
 
 	max_so_far = -maxint - 1
