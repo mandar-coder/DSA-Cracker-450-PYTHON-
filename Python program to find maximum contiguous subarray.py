@@ -1,7 +1,5 @@
 # Python program to find maximum contiguous subarray
-
 from sys import maxint
-
 def maxSubArraySum(a, size):
 
 	max_so_far = -maxint - 1
@@ -15,7 +13,6 @@ def maxSubArraySum(a, size):
 		if max_ending_here < 0:
 			max_ending_here = 0
 	return max_so_far
-
 
 a = [-2, -3, 4, -1, -2, 1, 5, -3]
 
