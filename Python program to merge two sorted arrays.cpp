@@ -1,4 +1,4 @@
-# Python program to merge two sorted arrays
+# Python program to merge two sorted arrays 
 def mergeArrays(arr1, arr2, n1, n2, arr3):
 	i = 0
 	j = 0
