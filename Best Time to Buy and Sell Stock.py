@@ -1,4 +1,5 @@
 #Best Time to Buy and Sell Stock
+
 def maxprofit(arr, n):
     buy = arr[0]
     max = 0
